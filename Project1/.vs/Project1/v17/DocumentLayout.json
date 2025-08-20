@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chang\\OneDrive\\\uBB38\uC11C\\GitHub\\DXEngine\\Project1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E525265-53E3-4FC8-AE44-AC4799E41768}|Project1.vcxproj|C:\\Users\\chang\\OneDrive\\\uBB38\uC11C\\GitHub\\DXEngine\\Project1\\WinMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4E525265-53E3-4FC8-AE44-AC4799E41768}|Project1.vcxproj|solutionrelative:WinMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WinMain.cpp",
+              "DocumentMoniker": "C:\\Users\\chang\\OneDrive\\\uBB38\uC11C\\GitHub\\DXEngine\\Project1\\WinMain.cpp",
+              "RelativeDocumentMoniker": "WinMain.cpp",
+              "ToolTip": "C:\\Users\\chang\\OneDrive\\\uBB38\uC11C\\GitHub\\DXEngine\\Project1\\WinMain.cpp",
+              "RelativeToolTip": "WinMain.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-20T09:55:51.659Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
