@@ -1,5 +1,6 @@
 #include<Windows.h>
 #include "WindowsMessageMap.h"
+#include "sstream"
 
 LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
 {
@@ -22,6 +23,19 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
 		{
 			SetWindowText(hwnd, L"왜 키 올림");
 		}
+		break;
+	case WM_CHAR:
+	{
+		static std::wstring title;
+		title.push_back((wchar_t)wParam);
+		SetWindowText(hwnd, title.c_str());
+	}
+	break;
+	case WM_LBUTTONDOWN:
+		POINTS pt = MAKEPOINTS(lParam);
+		std::wostringstream oss;
+		oss << "(" << pt.x << "," << pt.y << ")";
+		SetWindowText(hwnd, oss.str().c_str());
 		break;
 	}
 	return DefWindowProc(hwnd, msg, wParam, lParam);
