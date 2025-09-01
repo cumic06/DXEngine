@@ -1,3 +1,13 @@
 ﻿  WinMain.cpp
-C:\Users\chang\GitHub\DXEngine\Project1\WinMain.cpp(103,13): warning C4244: 'return': 'WPARAM'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\chang\GitHub\DXEngine\Project1\ChiliWin.h(23,9): warning C4005: '_WIN32_WINNT': 매크로 재정의
+  (소스 파일 'WinMain.cpp'을(를) 컴파일하는 중)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\sdkddkver.h(228,10):
+      '_WIN32_WINNT'의 이전 정의를 참조하십시오.
+  
+C:\Users\chang\GitHub\DXEngine\Project1\ChiliWin.h(66,9): warning C4005: 'STRICT': 매크로 재정의
+  (소스 파일 'WinMain.cpp'을(를) 컴파일하는 중)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(23,9):
+      'STRICT'의 이전 정의를 참조하십시오.
+  
+C:\Users\chang\GitHub\DXEngine\Project1\WinMain.cpp(107,13): warning C4244: 'return': 'WPARAM'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   Project1.vcxproj -> C:\Users\chang\GitHub\DXEngine\Project1\x64\Debug\Project1.exe

@@ -2,8 +2,13 @@
 #include "WindowsMessageMap.h"
 #include "sstream"
 
+#include "Window.h"
+
 LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
 {
+	Window window(600, 800, L"fdadgewag");
+	Window wfdw(700, 365, L"grwntnt");
+
 	static WindowsMessageMap mm;
 	OutputDebugString((LPCWSTR)mm(msg, lParam, wParam).c_str());
 
