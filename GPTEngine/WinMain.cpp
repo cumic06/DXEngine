@@ -60,6 +60,8 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 		hdc = BeginPaint(hwnd, &ps);
 
 		TextOut(hdc, 50, 50, TEXT("Hello, Windows!"), 15);
+		Rectangle(hdc, 100, 100, 300, 200);
+		Ellipse(hdc, 350, 100, 550, 300);
 
 		EndPaint(hwnd, &ps);
 		break;
